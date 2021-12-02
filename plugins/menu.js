@@ -149,242 +149,132 @@ if (!args[0]) {
     conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
       "listMessage": {
         "title": "ᴡɪᴢᴀʀᴅ-sᴇʀ ʙʏ ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜ",
-        "description":"┌─────❲ *WIZARD-SER* ❳\n┊\n└─────────────────❋ཻུ۪۪⸙\n\n        ╔╗╔╗╔══╗╔══╗\n        ║╚╝║║╔╗║╚║║╝\n        ║╔╗║║╠╣║╔║║╗\n        ╚╝╚╝╚╝╚╝╚══╝\n\n┌─────❲ ᴀʙᴏᴜᴛ ❳\n┊☞ ᴏᴡɴᴇʀ : ☯︎ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜ \n┊☞ wa.me/919744196187 \n┊☞ ᴘʀᴇꜰɪx : ᴍᴜʟᴛɪ ᴘʀᴇꜰɪx \n┊☞ʙᴏᴛ ɴᴀᴍᴇ : ᴡɪᴢᴀʀᴅ sᴇʀ \n┊☞ ᴠᴇʀꜱɪᴏɴ : ᴠ1 \n┊☞ ɪɴꜱᴛᴀ : https://instagram.com/a_j_f_x\n└─────────────────❋ཻུ۪۪⸙",
+        "description":"┌─────❲ *WIZARD-SER* ❳\n┊\n└─────────────────❋ཻུ۪۪⸙\n\n        ╔╗╔╗╔══╗╔══╗\n        ║╚╝║║╔╗║╚║║╝\n        ║╔╗║║╠╣║╔║║╗\n        ╚╝╚╝╚╝╚╝╚══╝\n\n┌─────❲ ᴀʙᴏᴜᴛ ❳\n┊☞ ᴏᴡɴᴇʀ : ☯︎ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜ \n┊☞ wa.me/918590967139 \n┊☞ wa.me/919744196187 \n┊☞ ᴘʀᴇꜰɪx : ᴍᴜʟᴛɪ ᴘʀᴇꜰɪx \n┊☞ʙᴏᴛ ɴᴀᴍᴇ : ᴡɪᴢᴀʀᴅ sᴇʀ \n┊☞ ᴠᴇʀꜱɪᴏɴ : ᴠ1 \n┊☞ ɪɴꜱᴛᴀ : https://instagram.com/a_j_f_x\n└─────────────────❋ཻུ۪۪⸙",
         "buttonText": "𝐌𝐄𝐍𝐔",
         "listType": "SINGLE_SELECT",
         "sections": [
-          {
-            "rows": [
-              {
-                "title": `All Commands`,
-                "description": "",
-                "rowId": ".? all"
+            {
+              "rows": [
+                {
+                  "title": `🧾All Commands`,
+                  "description": "Show all features",
+                  "rowId": ".? all"
                 }, {
-                "title": "Main menu",
-                "description": "",
-                "rowId": ".? main"
-              }, {
-                "title": "Game menu",
-                "description": "",
-                "rowId": ".? game"
+                  "title": "💻Game",
+                  "description": "Game features",
+                  "rowId": ".? game"
 
-              }, {
-                "title": "XP",
-                "description": "",
-                "rowId": ".? xp"
+                }, {
+                  "title": "💸XP",
+                  "description": "Features level & usage limit",
+                  "rowId": ".? xp"
 
-              }, {
-                "title": "Sticker Menu",
-                "description": "",
-                "rowId": ".? stiker"
-              }, {
-                "title": "Magic Shell",
-                "description": "",
-                "rowId": ".? kerang"
-              }, {
-                "title": "Quotes",
-                "description": "",
-                "rowId": ".? quotes"
-              }, {
-                "title": "Admin Commands",
-                "description": "",
-                "rowId": ".? admin"
-              }, {
-                "title": "Group Menu",
-                "description": "",
-                "rowId": ".? grup"
-              }, {
-                "title": "Premium",
-                "description": "",
-                "rowId": ".? premium"
-              }, {
-                "title": "Internet Menu",
-                "description": "",
-                "rowId": ".? internet"
-              }, {
-                "title": "Anonymous",
-                "description": "",
-                "rowId": ".? anonymous"
-              }, {
-                "title": "Nulis & Logo",
-                "description": "",
-                "rowId": ".? nulis"
-              }, {
-                "title": "Downloader Menu",
-                "description": "",
-                "rowId": ".? downloader"
-              }, {
-                "title": "Tools Menu",
-                "description": "",
-                "rowId": ".? tools"
-              }, {
-                "title": "Fun Menu",
-                "description": "",
-                "rowId": ".? fun"
-              }, {
-                "title": "Database",
-                "description": "",
-                "rowId": ".? database"
-              }, {
-                "title": "Vote & Absen",
-                "description": "",
-                "rowId": ".? vote"
-              }, {
-                "title": "Al-Qur\'an",
-                "description": "",
-                "rowId": ".? quran"
-              }, {
-                "title": "Voice Changer",
-                "description": "",
-                "rowId": ".? audio"
-              }, {
-                "title": "Wizard-Ser",
-                "description": "",
-                "rowId": ".? spyrobot"
-              }, {
-                "title": "Info Bot",
-                "description": "",
-                "rowId": ".? info"
+                },  {
+                  "title": "Video Maker",
+                  "description": "Making Different Types Of Videos",
+                  "rowId": ".? .videomaker"
+
+                },{
+                  "title": "Sticker",
+                  "description": "Features for making stickers",
+                  "rowId": ".? stiker"
+                }, { 
+                "title": "Anime",
+                "description": "Anime Related Plugin",
+                "rowId": ".? anime"
+              },  {
+                  "title": "Quotes",
+                  "description": "Gives You Random Quotes..",
+                  "rowId": ".? quotes"
                 }, {
-                "title": "Nsfw premium",
-                "description": "",
-                "rowId": ".? nsfw"
+                  "title": "Admin",
+                  "description": "Group Admin Commands",
+                  "rowId": ".? admin"
                 }, {
-                "title": "Nsfw Free",
-                "description": "",
-                "rowId": ".? nnsfw"
+                  "title": "Grup",
+                  "description": "Group Related Commands",
+                  "rowId": ".? grup"
                 }, {
-                "title": "Random Menu",
-                "description": "",
-                "rowId": ".? random"
+                  "title": "Premium",
+                  "description": "Premium Users Plugins",
+                  "rowId": ".? premium"
                 }, {
-                "title": "Image",
-                "description": "",
-                "rowId": ".? image"
+                  "title": "Internet",
+                  "description": "Commands Related To Internet",
+                  "rowId": ".? internet"
                 }, {
-                "title": "Nhentai",
-                "description": "",
-                "rowId": ".? nhentai"
+                  "title": "Anonymous",
+                  "description": "To Start Anonymous Chatting",
+                  "rowId": ".? anonymous"
                 }, {
-                "title": "Nhe",
-                "description": "",
-                "rowId": ".? nhe"
+                  "title": "Magic Shell",
+                  "description": "Random answer feature",
+                  "rowId": `.? magicshell`
                 }, {
-                "title": "Maker Menu",
-                "description": "",
-                "rowId": ".? maker"
+                  "title": "Nulis & Logo",
+                  "description": "Text Maker Coammnds",
+                  "rowId": ".? nulis"
                 }, {
-                "title": "Videomaker Menu",
-                "description": "",
-                "rowId": ".? videomaker"
-              }, {
-                "title": "No Categories",
-                "description": "",
-                "rowId": ".? NoCategories"
-              }, {
-                "title": "Owner Menu",
-                "description": "",
-                "rowId": ".? owner"
-              }
-            ]
+                  "title": "Downloader",
+                  "description": "Downloading Commnds",
+                  "rowId": ".? downloader"
+                }, {
+                  "title": "Tools",
+                  "description": "Tool features",
+                  "rowId": ".? tools"
+                }, {
+                  "title": "Voice Changer",
+                  "description": "To change the voice",
+                  "rowId": `.? audio`
+                }, {
+                  "title": "Fun",
+                  "description": "Just for fun",
+                  "rowId": ".? fun"
+                }, {
+                  "title": "Database",
+                  "description": "User database",
+                  "rowId": ".? database"
+                },{
+                  "title": "Owner",
+                  "description": "Owner's special features",
+                  "rowId": ".? owner"
+                }
+              ]
+            }
+          ], "contextInfo": {
+            "stanzaId": m.key.id,
+            "participant": m.sender,
+            "quotedMessage": m.message
           }
-        ], "contextInfo": {
-          "stanzaId": m.key.id,
-          "participant": m.sender,
-          "quotedMessage": m.message
         }
-      }
-    }, {}), { waitForAck: true })
-    throw 0
-  }
-  //   throw `
-  // ┌〔 SPYRO SIR MENU 〕
-  // ├ ${_p + command} all
-  // ├ ${_p + command} Utama
-  // ├ ${_p + command} game
-  // ├ ${_p + command} xp
-  // ├ ${_p + command} stiker
-  // ├ ${_p + command} kerang
-  // ├ ${_p + command} quotes
-  // ├ ${_p + command} admin
-  // ├ ${_p + command} group
-  // ├ ${_p + command} premium
-  // ├ ${_p + command} internet
-  // ├ ${_p + command} anonymous
-  // ├ ${_p + command} nulis
-  // ├ ${_p + command} downloader
-  // ├ ${_p + command} tools
-  // ├ ${_p + command} fun
-  // ├ ${_p + command} database
-  // ├ ${_p + command} vote
-  // ├ ${_p + command} quran
-  // ├ ${_p + command} audio
-  // ├ ${_p + command} jadibot
-  // ├ ${_p + command} info
-  // ├ ${_p + command} Nsfw premium
-  // ├ ${_p + command} Nsfw Free
-  // ├ ${_p + command} Random
-  // ├ ${_p + command} Image
-  // ├ ${_p + command} Nhentai
-  // ├ ${_p + command} Nhe
-  // ├ ${_p + command} Maker
-  // ├ ${_p + command} Videomaker
-  // ├ ${_p + command} tanpa kategori
-  // ├ ${_p + command} owner
-  // └────  
-  //     `.trim()
-
-  try {
-    let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
-    let { exp, limit, level, role, registered } = global.db.data.users[m.sender]
-    let { min, xp, max } = levelling.xpRange(level, global.multiplier)
-    let name = registered ? global.db.data.users[m.sender].name : conn.getName(m.sender)
-    let d = new Date(new Date + 3600000)
-    let locale = 'id'
-    // d.getTimeZoneOffset()
-    // Offset -420 is 18.00
-    // Offset    0 is  0.00
-    // Offset  420 is  7.00
-    let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
-    let week = d.toLocaleDateString(locale, { weekday: 'long' })
-    let date = d.toLocaleDateString(locale, {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric'
-    })
-    let dateIslamic = Intl.DateTimeFormat(locale + '-TN-u-ca-islamic', {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric'
-    }).format(d)
-    let time = d.toLocaleTimeString(locale, {
-      hour: 'numeric',
-      minute: 'numeric',
-      second: 'numeric'
-    })
-    let _uptime = process.uptime() * 1000
-    let _muptime
-    if (process.send) {
-      process.send('uptime')
-      _muptime = await new Promise(resolve => {
-        process.once('message', resolve)
-        setTimeout(resolve, 1000)
-      }) * 1000
+      }, {}), { waitForAck: true })
     }
-    let muptime = clockString(_muptime)
-    let uptime = clockString(_uptime)
-    let totalreg = Object.keys(global.db.data.users).length
-    let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
-    let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => {
-      return {
-        help: Array.isArray(plugin.help) ? plugin.help : [plugin.help],
-        tags: Array.isArray(plugin.tags) ? plugin.tags : [plugin.tags],
-        prefix: 'customPrefix' in plugin,
-        limit: plugin.limit,
-        premium: plugin.premium,
-        enabled: !plugin.disabled,
-      }
-    })
+    // use this if you use business whatsapp
+    //   throw `
+    // ┌〔 LIST MENU 〕
+    // ├ ${_p + command} all
+    // ├ ${_p + command} game
+    // ├ ${_p + command} xp
+    // ├ ${_p + command} stiker
+    // ├ ${_p + command} quotes
+    // ├ ${_p + command} admin
+    // ├ ${_p + command} group
+    // ├ ${_p + command} premium
+    // ├ ${_p + command} internet
+    // ├ ${_p + command} anonymous
+    // ├ ${_p + command} nulis
+    // ├ ${_p + command} downloader
+    // ├ ${_p + command} tools
+    // ├ ${_p + command} fun
+    // ├ ${_p + command} database
+    // ├ ${_p + command} vote
+    // ├ ${_p + command} quran
+    // ├ ${_p + command} audio
+    // ├ ${_p + command} jadibot
+    // ├ ${_p + command} info
+    // ├ ${_p + command} owner
+    // └────  
+    //     `.trim()
     let groups = {}
     for (let tag in tags) {
       groups[tag] = []
@@ -399,7 +289,7 @@ if (!args[0]) {
     let header = conn.menu.header || defaultMenu.header
     let body = conn.menu.body || defaultMenu.body
     let footer = conn.menu.footer || defaultMenu.footer
-    let after = conn.menu.after || (conn.user.jid == global.conn.user.jid ? '' : `Dipersembahkan oleh https://wa.me/${global.conn.user.jid.split`@`[0]}`) + defaultMenu.after
+    let after = conn.menu.after || (conn.user.jid == global.conn.user.jid ? '' : `Presented by https://wa.me/${global.conn.user.jid.split`@`[0]}`) + defaultMenu.after
     let _text = [
       before,
       ...Object.keys(tags).map(tag => {
@@ -428,21 +318,21 @@ if (!args[0]) {
       exp: exp - min,
       maxexp: xp,
       totalexp: exp,
-      xp4levelup: max - exp <= 0 ? `Siap untuk *${_p}levelup*` : `${max - exp} XP lagi untuk levelup`,
+      xp4levelup: max - exp <= 0 ? `Ready for *${_p}levelup*` : `${max - exp} More XP for levelup`,
       github: package.homepage ? package.homepage.url || package.homepage : '[unknown github url]',
-      level, limit, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
+      level, limit, name, weton, week, date, time, totalreg, rtotalreg, role,
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2Button(m.chat, text.trim(),       '*╭─➤* 𝗜𝗡𝗙𝗢 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 »\n *│❖* ᴀᴜᴛʜᴏʀ : ☯︎ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜ \n *│❖* ɪɴꜱᴛᴀ :https://instagram.com/a_j_f_x\n *│❖* ᴡʜᴀᴛꜱ:Wa.me/919744196187\n *╰────────────────❋ཻུ۪۪⸙* ', 'RULES', '.rules', 'OWNER', '.owner',{ quoted: m })
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://i.imgur.com/GPfJCH7.jpg")).buffer(), text.trim(), '© ᴡɪᴢᴀʀᴅ sᴇʀ ©', 'Owner Bot', ',owner', 'All Commands', '.? all', m)
   } catch (e) {
-    conn.reply(m.chat, 'Maaf, menu sedang error', m)
+    conn.reply(m.chat, 'Sorry, Try Again', m)
     throw e
   }
 }
-handler.help = ['menu', 'help', '?']
+handler.help = ['menu', 'help','list','wizard', '?']
 handler.tags = ['main']
-handler.command = /^(menu|help|\?)$/i
+handler.command = /^(menu|help|wizard|list|\?)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
@@ -450,7 +340,7 @@ handler.group = false
 handler.private = false
 
 handler.admin = false
-handler.botAdmin = false 
+handler.botAdmin = false
 
 handler.fail = null
 handler.exp = 3
@@ -465,4 +355,21 @@ function clockString(ms) {
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
+}
+function ucapan() {
+  const time = moment.tz('Asia/Kolkata').format('HH')
+  res = "Good Morning 🌄"
+  if (time >= 4) {
+    res = "Good Morning 🌞"
+  }
+  if (time > 10) {
+    res = "Good afternoon 🌅"
+  }
+  if (time >= 15) {
+    res = "Good Evening 🌆"
+  }
+  if (time >= 18) {
+    res = "Good Night 🌌"
+  }
+  return res
 }
