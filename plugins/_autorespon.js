@@ -32,16 +32,16 @@ handler.all = async function (m, { isBlocked }) {
 ├ .join Group Link
 └────
 
-https://github.com/DEVILSER/Ammu
-`.trim(), '© Ammu', ' Owner', ',owner', m)
+https://github.com/Ajmal-Achu/Wizard-Ser
+`.trim(), '© Wizar-Ser', ' Owner', ',owner', m)
     }
 
         // ketika ada yang invite/kirim link grup di chat pribadi
         if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Open this link')) && !m.isBaileys && !m.isGroup) {
             this.sendButton(m.chat, `┌〔 Invite Bots to Group 〕
 .kick
-    https://github.com/DEVILSER/Ammu
-    `.trim(), '© Ammu', ' Owner', ',owner', m)
+    https://github.com/Ajmal-Achu/Wizard-Ser
+    `.trim(), '© Wizard-Ser', ' Owner', ',owner', m)
         }
 
     // backup db
@@ -64,7 +64,7 @@ https://github.com/DEVILSER/Ammu
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Active during ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Group Only' : 'Public'} | Ammu by DEVILSER`).catch(_ => _)
+        await this.setStatus(`Active during ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Group Only' : 'Public'} | Wizard-Ser by Ajmal And Achu`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
