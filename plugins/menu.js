@@ -1,9 +1,12 @@
+let levelling = require('../lib/levelling')
+let { MessageType } = require('@adiwajshing/baileys')
 let fs = require('fs')
 let path = require('path')
-let levelling = require('../lib/levelling')
+let fetch = require('node-fetch')
+let moment = require('moment-timezone')
 const defaultMenu = {
   before: `
-╔═══════❮❮ *ᴡɪᴢᴀʀᴅ sᴇʀ* ❯❯\n║\n╚═══════════════◌\n\n        ╔╗╔╗╔══╗╔══╗\n        ║╚╝║║╔╗║╚║║╝\n        ║╔╗║║╠╣║╔║║╗\n        ╚╝╚╝╚╝╚╝╚══╝\n\n┌─────❲ *ᴀʙᴏᴜᴛ* ❳\n┊⎆ Hai, _%name !_\n┊⎆ Limit : _%limit Limit_\n┊⎆ Role : _%role_\n┊⎆ Level : _%level_\n┊⎆ Week : _%week_\n┊⎆ Date : _%date_\n┊⎆ Time : _%time_\n┊⎆ Uptime :  _%uptime (%muptime)_\n┊⎆ Database : _%totalreg_\n└─────────────────❋ཻུ۪۪⸙
+╔═══════❮❮ *ᴡɪᴢᴀʀᴅ sᴇʀ* ❯❯\n║\n╚═══════════════◌\n\n        ╔╗╔╗╔══╗╔══╗\n        ║╚╝║║╔╗║╚║║╝\n        ║╔╗║║╠╣║╔║║╗\n        ╚╝╚╝╚╝╚╝╚══╝\n\n┌─────❲ *ᴀʙᴏᴜᴛ* ❳\n┊⎆ Hai, _${name} !_\n┊⎆ Limit : _%limit Limit_\n┊⎆ Role : _%role_\n┊⎆ Level : _%level_\n┊⎆ Week : _%week_\n┊⎆ Date : _%date_\n┊⎆ Time : _%time_\n┊⎆ Uptime :  _%uptime (%muptime)_\n┊⎆ Database : _%totalreg_\n└─────────────────❋ཻུ۪۪⸙
 %readmore`.trimStart(),
   header: '╔════════╣ 𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆 ╠═══════╗',
   body: '    ╠❏ _%cmd%islimit%isPremium_',
