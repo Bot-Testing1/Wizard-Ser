@@ -16,14 +16,17 @@ ${'```★ᴡɪᴢᴀʀᴅ sᴇʀ✯```'}
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let tags
   let teks = `${args[0]}`.toLowerCase()
+  let arrayMenu = ['all', 'game', 'xp', 'stiker','quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools','anime','videomaker', 'fun', 'database', 'audio','info','owner']
+  if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
     'main': 'Main',
     'game': 'Game',
     'xp': 'Exp & Limit',
+    'anime': 'Anime',
     'sticker': 'Stiker',
-    'kerang': 'Magic Shell',
+    'shell': 'Magic Shells',
     'quotes': 'Quotes',
-    'admin': `Admin ${global.opts['restrict'] ? '' : '(Dinonaktifkan)'}`,
+    'admin': `Admin ${global.opts['restrict'] ? '' : '(Disabled)'}`,
     'group': 'Grup',
     'premium': 'Premium',
     'internet': 'Internet',
@@ -31,26 +34,13 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'nulis': 'MagerNulis & Logo',
     'downloader': 'Downloader',
     'tools': 'Tools',
+    'Video Maker':'videomaker',
     'fun': 'Fun',
     'database': 'Database',
     'vote': 'Voting',
-    'absen': 'Absent',
-    'quran': 'Al Qur\'an',
     'audio': 'Voice Changer',
-    'jadibot': 'Jadi Bot',
     'info': 'Info',
-    'nsfw': 'Nsfw Premium',
-    'nnsfw': 'Nsfw Free',
-    'random': 'Random',
-    'image': 'Image',
-    'maker': 'Maker',
-    'nhentai': 'Nhentai',
-    'nhe': 'Nhe',
-    'videomaker': 'Videomaker',
-    '': 'Tanpa Kategori',
-    }
-  if (teks == 'main') tags = {
-    'main': 'Utama'
+    '': 'No Category',
   }
   if (teks == 'game') tags = {
     'game': 'Game'
@@ -62,19 +52,22 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'sticker': 'Stiker'
   }
   if (teks == 'shell') tags = {
-    'kerang': 'Magic Shell'
+    'shell': 'Magic Shells'
   }
   if (teks == 'quotes') tags = {
     'quotes': 'Quotes'
   }
   if (teks == 'admin') tags = {
-    'admin': `Admin ${global.opts['restrict'] ? '' : '(Dinonaktifkan)'}`
+    'admin': `Admin ${global.opts['restrict'] ? '' : '(Disabled)'}`
   }
   if (teks == 'grup') tags = {
     'group': 'Grup'
   }
   if (teks == 'premium') tags = {
     'premium': 'Premium'
+  }
+  if (teks == 'videomaker') tags = {
+    'videomaker': 'Video Maker'
   }
   if (teks == 'internet') tags = {
     'internet': 'Internet'
@@ -94,65 +87,102 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   if (teks == 'fun') tags = {
     'fun': 'Fun'
   }
+  if (teks == 'anime') tags = {
+    'anime': 'Anime'
+  }
   if (teks == 'database') tags = {
     'database': 'Database'
-  }
-  if (teks == 'vote') tags = {
-    'vote': 'Voting',
-    'absen': 'Absen'
-  }
-  if (teks == 'quran') tags = {
-    'quran': 'Al Qur\'an'
   }
   if (teks == 'audio') tags = {
     'audio': 'Voice Changer'
   }
-  if (teks == 'jadibot') tags = {
-    'jadibot': 'Jadi Bot'
-  }
-  if (teks == 'info') tags = {
-    'info': 'Info'
-  }
-  if (teks == 'nsfw') tags = {
-    'nsfw': 'Nsfw premium'
-  }
-  if (teks == 'nnsfw') tags = {
-    'nnsfw': 'Nsfw Free'
-  }
-  if (teks == 'random') tags = {
-    'random': 'Random'
-  }
-  if (teks == 'image') tags = {
-    'image': 'Image'
-  }
-  if (teks == 'nhentai') tags = {
-    'nhentai': 'Nhentai'
-  }
-  if (teks == 'maker') tags = {
-    'maker': 'Maker'
-  }
-  if (teks == 'nhe') tags = {
-    'nhe': 'Nhe'
-  }
-  if (teks == 'videomaker') tags = {
-    'videomaker': 'Videomaker'
-  }
-  if (teks == 'tanpakategori') tags = {
-    '': 'Tanpa Kategori'
+  if (teks == 'vote') tags = {
+    'vote': 'Voting',
+    'absen': 'Absen'
   }
   if (teks == 'owner') tags = {
     'owner': 'Owner',
     'host': 'Host',
     'advanced': 'Advanced'
   }
-if (!args[0]) {
-    conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
-      "listMessage": {
-        "title": "ᴡɪᴢᴀʀᴅ-sᴇʀ ʙʏ ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜ",
-        "description":"┌─────❲ *WIZARD-SER* ❳\n┊\n└─────────────────❋ཻུ۪۪⸙\n\n        ╔╗╔╗╔══╗╔══╗\n        ║╚╝║║╔╗║╚║║╝\n        ║╔╗║║╠╣║╔║║╗\n        ╚╝╚╝╚╝╚╝╚══╝\n\n┌─────❲ ᴀʙᴏᴜᴛ ❳\n┊☞ ᴏᴡɴᴇʀ : ☯︎ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜ \n┊☞ wa.me/918590967139 \n┊☞ wa.me/919744196187 \n┊☞ ᴘʀᴇꜰɪx : ᴍᴜʟᴛɪ ᴘʀᴇꜰɪx \n┊☞ʙᴏᴛ ɴᴀᴍᴇ : ᴡɪᴢᴀʀᴅ sᴇʀ \n┊☞ ᴠᴇʀꜱɪᴏɴ : ᴠ1 \n┊☞ ɪɴꜱᴛᴀ : https://instagram.com/a_j_f_x\n└─────────────────❋ཻུ۪۪⸙",
-        "buttonText": "𝐌𝐄𝐍𝐔",
-        "listType": "SINGLE_SELECT",
-        "sections": [
+
+
+
+  try {
+    let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
+    let { exp, limit, level, role, registered } = global.db.data.users[m.sender]
+    let { min, xp, max } = levelling.xpRange(level, global.multiplier)
+    let name = registered ? global.db.data.users[m.sender].name : conn.getName(m.sender)
+    let d = new Date(new Date + 3600000)
+    let locale = 'en'
+    // d.getTimeZoneOffset()
+    // Offset -420 is 18.00
+    // Offset    0 is  0.00
+    // Offset  420 is  7.00
+    let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
+    let week = d.toLocaleDateString(locale, { weekday: 'long' })
+    let date = d.toLocaleDateString(locale, {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    })
+    let time = d.toLocaleTimeString(locale, {
+      hour: 'numeric',
+      minute: 'numeric',
+      second: 'numeric'
+    })
+    let _uptime = process.uptime() * 1000
+    let _muptime
+    if (process.send) {
+      process.send('uptime')
+      _muptime = await new Promise(resolve => {
+        process.once('message', resolve)
+        setTimeout(resolve, 1000)
+      }) * 1000
+    }
+    let muptime = clockString(_muptime)
+    let uptime = clockString(_uptime)
+    let totalreg = Object.keys(global.db.data.users).length
+    let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
+    let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => {
+      return {
+        help: Array.isArray(plugin.help) ? plugin.help : [plugin.help],
+        tags: Array.isArray(plugin.tags) ? plugin.tags : [plugin.tags],
+        prefix: 'customPrefix' in plugin,
+        limit: plugin.limit,
+        premium: plugin.premium,
+        enabled: !plugin.disabled,
+      }
+    })
+    if (teks == '404') {
+      return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
+        "listMessage": {
+          "title": `ᴡɪᴢᴀʀᴅ sᴇʀ  ʙʏ ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜ,
+┌─────❲ *ᴡɪᴢᴀʀᴅ sᴇʀ* ❳
+┊
+└─────────────────❋ཻུ۪۪⸙
+        
+        ╔╗╔╗╔══╗╔══╗
+        ║╚╝║║╔╗║╚║║╝
+        ║╔╗║║╠╣║╔║║╗
+        ╚╝╚╝╚╝╚╝╚══╝
+
+┌─────❲ ᴀʙᴏᴜᴛ ❳
+┊☞  Oi ${ucapan()}
+┊☞ 👤 *NAME* : ${name}
+┊☞ 🧭 *TIME* : ${time},
+┊☞ 💫 *WEEK* : ${week},
+┊☞ ✅ *DATE* : ${date},
+┊☞ 💝 *OWNER* : ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜ
+┊☞ 🖌️ *PREFIX* : ᴍᴜʟᴛɪ ᴘʀᴇғɪx 
+┊☞ ☮️ *BOT NAME* : ᴡɪᴢᴀʀᴅ sᴇʀ
+└─────────────────❋ཻུ۪۪⸙`
+          
+           .trim(),
+           "description": "*DON'T SPAM*",
+          "buttonText": "Click  Here",
+          "listType": "SINGLE_SELECT",
+          "sections": [
             {
               "rows": [
                 {
