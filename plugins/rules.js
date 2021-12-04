@@ -22,9 +22,9 @@ let handler = async (m, { conn }) => {
 2. If you violate the rules number 1, 2, 3 then you can get banned from bots
 4. If you violate rule number 3 (insulting) then you will be picked up at your respective homes
 `.trim()
-    conn.sendFile(m.chat, 'https://i.imgur.com/707WLbK.jpeg', 'HarunoThumb.jpg', haruno, m, false, {thumbnail: Buffer.alloc(0) })
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://raw.githubusercontent.com/DEVILSER/DEVILSER/main/Media/Ammu/Ammukutty-407x400.png")).buffer(), haruno, '© Wizard-Ser', 'ᴍᴇɴᴜ', '.? menu', 'ᴏᴡɴᴇʀ', ',owner', m)
 }
 handler.tags = ['main']
 handler.help = ['rules']
-handler.command = /^(rules)$/i
+handler.command = /^(rule)$/i
 module.exports = handler
