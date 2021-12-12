@@ -41,7 +41,7 @@ WhatsApp Bot
 
 ## `CHANGE SETTINGS`
 
-- OWNER NUMBER [`Here`](https://github.com/Ajmal-Achu/Wizard-Ser/edit/main/config.js#L2)
+- OWNER NUMBER [`CLICK HERE`](https://github.com/Ajmal-Achu/Wizard-Ser/edit/main/config.js#L2)
 - Owner Name [Here](https://github.com/HYPER-MOD/Queen-Alexa/blob/main/settings.json#L14)
 - Bot Name [Here](https://github.com/HYPER-MOD/Queen-Alexa/blob/main/settings.json#L15)
 
