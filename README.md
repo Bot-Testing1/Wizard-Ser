@@ -39,9 +39,9 @@ WhatsApp Bot
 
 [`Click Here`](https://github.com/HYPER-MOD/Queen-Alexa/blob/main/session.json#L1)
 
-## `SETTING`
+## `CHANGE SETTINGS`
 
-- Owner number [Here](https://github.com/HYPER-MOD/Queen-Alexa/blob/main/settings.json#L4)
+- OWNER NUMBER [`Here`](https://github.com/Ajmal-Achu/Wizard-Ser/edit/main/config.js#L2)
 - Owner Name [Here](https://github.com/HYPER-MOD/Queen-Alexa/blob/main/settings.json#L14)
 - Bot Name [Here](https://github.com/HYPER-MOD/Queen-Alexa/blob/main/settings.json#L15)
 
