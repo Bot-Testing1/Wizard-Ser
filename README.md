@@ -33,7 +33,7 @@ WhatsApp Bot
 
 ## `SCAN QR`
 
-[`Click Here`](https://replit.com/@AjmalAchu123/Wizard-Ser-Qr-test)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@AjmalAchu123/Wizard-Ser-Qr-test)
 
 ## `CHANGE SESSION`
 
