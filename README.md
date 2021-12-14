@@ -21,7 +21,7 @@
 
 ## `CHANGE SETTINGS`
 
-- OWNER NUMBER [`CLICK HERE`](https://github.com/Ajmal-Achu/Wizard-Ser/edit/main/config.js#L2)
+- OWNER NUMBER [`CLICK HERE`](https://github.com/Ajmal-Achu/Wizard-Ser/blob/main/config.js#L2)
 - OWNER NAME [`CLICK HERE`](https://github.com/HYPER-MOD/Queen-Alexa/blob/main/settings.json#L14)
 - BOT NAME [`CLICK HERE`](https://github.com/HYPER-MOD/Queen-Alexa/blob/main/settings.json#L15)
 
