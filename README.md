@@ -18,7 +18,7 @@
 
 ## `CHANGE SESSION`
 
-[`Click Here`](https://github.com/HYPER-MOD/Queen-Alexa/blob/main/session.json#L1)
+[`Click Here`](https://github.com/Ajmal-Achu/Wizard-Ser/blob/main/session.data.json#L1)
 
 ## `CHANGE SETTINGS`
 
