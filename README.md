@@ -7,6 +7,7 @@
 
 -------
 
+
 ## `SCAN QR`
 
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@AjmalAchu123/Wizard-Ser-Qr-test)
@@ -35,15 +36,6 @@
   <a href="https://github.com/Ajmal-Achu/Wizrad-Ser"><img src="https://i.imgur.com/aSw2GKZ.jpeg" />
 </p>
 
-## ```HOW TO DEPLOY```
-
-[`Click Here For Tutorial`](https://github.com/Ajmal-Achu)<br>
-
-----------
-
-<p align="center">
-  <a href="https://youtu.be/BcMIibIUmHc"><img src="https://i.ibb.co/P18NNM2/20211024-191503.jpg" />
-</p>
 
 ## Developers
   <div align="center">
