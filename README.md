@@ -22,15 +22,17 @@
 ## `CHANGE SETTINGS`
 
 - OWNER NUMBER [`CLICK HERE`](https://github.com/Ajmal-Achu/Wizard-Ser/blob/main/config.js#L2)
-- OWNER NAME [`CLICK HERE`](https://github.com/HYPER-MOD/Queen-Alexa/blob/main/settings.json#L14)
-- BOT NAME [`CLICK HERE`](https://github.com/HYPER-MOD/Queen-Alexa/blob/main/settings.json#L15)
-
-## `CHANGE DYNO`
+- OWNER NAME [`CLICK HERE`](https://github.com/Ajmal-Achu/Wizard-Ser/blob/main/plugins/menu.js#L187)
+- BOT NAME [`CLICK HERE`](https://github.com/Ajmal-Achu/Wizard-Ser/blob/main/plugins/menu.js#L189)
 
 ----------
 
+## `CHANGE DYNO`
+
+`TURN OFF WEB NODE SERVER AND ENABLE WORKER NPM START`
+
 <p align="center">
-  <a href="https://youtube.com/c/HYPERMOD"><img src="https://i.ibb.co/TPqc8cv/Screenshot-2021-10-14-12-00-45-610-com-android-chrome.jpg" />
+  <a href="https://github.com/Ajmal-Achu/Wizrad-Ser"><img src="https://i.imgur.com/aSw2GKZ.jpeg" />
 </p>
 
 ## ```HOW TO DEPLOY```
@@ -43,6 +45,19 @@
   <a href="https://youtu.be/BcMIibIUmHc"><img src="https://i.ibb.co/P18NNM2/20211024-191503.jpg" />
 </p>
 
-*DEPLOY*
+## Developers
+  <div align="center">
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ajmal-Achu/Wizard-Ser.git)
+  [![Ajmal](https://i.imgur.com/0eDfjxn.jpeg)](https://github.com/Ajmal-Achu)[`Ajmal`](https://github.com/Ajmal-Achu)
+----|
+   `Re-Developer, Bug Fixes, Modules, Commits`
+
+   [![Achu](https://i.imgur.com/sKzm7EK.jpeg)](https://github.com/Ajmal-Achu)[`Achu`](https://github.com/Ajmal-Achu)
+----|
+   `Re-Developer, Bug Fixes, Modules, Commits`
+
+   [![SudoAnirudh](https://i.imgur.com/SrwYN5u.jpeg)](https://github.com/SudoAnirudh)[`SudoAnirudh`](https://github.com/SudoAnirudh)        
+----|
+    `Modifying as public`
+                                  
+  </div
