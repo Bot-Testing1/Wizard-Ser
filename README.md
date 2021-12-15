@@ -28,6 +28,16 @@
 
 ----------
 
+
+## `ADD BUILDPACK`
+
+```
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+```
+```
+https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
+```
+
 ## `CHANGE DYNO`
 
 `TURN OFF WEB NODE SERVER AND ENABLE WORKER NPM START`
@@ -47,9 +57,5 @@
    [![Achu](https://i.imgur.com/sKzm7EK.jpeg)](https://github.com/Ajmal-Achu)[`Achu`](https://github.com/Ajmal-Achu)
 ----|
    `Re-Developer, Bug Fixes, Modules, Commits`
-
-   [![SudoAnirudh](https://i.imgur.com/SrwYN5u.jpeg)](https://github.com/SudoAnirudh)[`SudoAnirudh`](https://github.com/SudoAnirudh)        
-----|
-    `Modifying as public`
                                   
   </div
