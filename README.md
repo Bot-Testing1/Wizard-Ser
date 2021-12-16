@@ -3,7 +3,22 @@
 <div align="center">
   <img border-radius: 15px src="https://i.imgur.com/1PWx69w.jpeg" width="200" height="200"/>
 
+<p align="center">
+  <a href="https://instagram.com/ajmal_ibn_shanavas"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+  <a href="https://wa.me/918590967139"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
 
+
+## ```HOW TO DEPLOY```
+`WATCH THE TUTORIAL VIDEO CAREFULLY TO DEPLOY THE BOT OTHERWISE CHANCES TO GET ERROR`
+
+[`Click Here For Tutorial`](https://youtube.com/channel/UCdtkZL6vnMU10Ow4EbtWJJw)
+
+----------
+
+<p align="center">
+  <a href="https://youtube.com/channel/UCdtkZL6vnMU10Ow4EbtWJJw"><img src="https://i.imgur.com/OKo0osw.jpeg" />
+</p>
 
 -------
 
