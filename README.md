@@ -31,15 +31,6 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ajmal-Achu/Wizard-Ser)
 
-## `CHANGE SESSION`
-
-[`Click Here`](https://github.com/Ajmal-Achu/Wizard-Ser/blob/main/session.data.json#L1)
-
-## `CHANGE SETTINGS`
-
-- OWNER NUMBER [`CLICK HERE`](https://github.com/Ajmal-Achu/Wizard-Ser/blob/main/config.js#L2)
-- OWNER NAME [`CLICK HERE`](https://github.com/Ajmal-Achu/Wizard-Ser/blob/main/plugins/menu.js#L187)
-- BOT NAME [`CLICK HERE`](https://github.com/Ajmal-Achu/Wizard-Ser/blob/main/plugins/menu.js#L189)
 
 ----------
 
